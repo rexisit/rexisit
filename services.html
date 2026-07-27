@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering Services | REXIS IT</title>
+  <meta name="description" content="Explore REXIS IT's software engineering services: custom web apps, Android & mobile development, cloud DevOps, API integration, and AI solutions.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+
+  <!-- Page Loader -->
+  <div id="page-loader">
+    <div class="loader-logo"><img src="logo.png" alt="REXIS IT Logo" style="height:60px; width:auto;"></div>
+    <div class="loader-bar"></div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="header">
+    <div class="container navbar">
+      <a href="index.html" class="logo">
+        <img src="logo.png" alt="REXIS IT Logo" class="logo-img">
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link active">Services</a>
+        <a href="technologies.html" class="nav-link">Technologies</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-primary btn-sm">Get Started</a>
+        <button class="hamburger" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Inner Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Our Engineering Services</h1>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> &nbsp;/&nbsp; <span>Services</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Grid -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="tag">What We Deliver</span>
+        <h2>End-to-End Digital Capabilities</h2>
+        <p>Comprehensive technology offerings designed to scale modern businesses efficiently.</p>
+      </div>
+
+      <div class="grid grid-3">
+        
+        <!-- Service 1 -->
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Website Development</h3>
+          <p>Custom-coded responsive websites engineered with clean semantic HTML5, CSS3, and vanilla JS. Fast loading speeds, robust SEO metadata, and zero dependence on bloated page builders.</p>
+          <ul style="margin-top:16px; font-size:0.9rem; color:var(--text-dark); display:grid; gap:8px;">
+            <li>✓ Responsive Layouts</li>
+            <li>✓ SEO Best Practices</li>
+            <li>✓ High PageSpeed Scores</li>
+          </ul>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Web Applications & SaaS</h3>
+          <p>Complex browser-based platforms and SaaS solutions built on modern frontend frameworks (React, Vue, Next.js) backed by resilient server-side microservices.</p>
+          <ul style="margin-top:16px; font-size:0.9rem; color:var(--text-dark); display:grid; gap:8px;">
+            <li>✓ Single Page Applications</li>
+            <li>✓ Dashboard Systems</li>
+            <li>✓ Role-Based Access Control</li>
+          </ul>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+          </div>
+          <h3>Android & Mobile Applications</h3>
+          <p>Native Android development using Kotlin and Java, alongside cross-platform solutions (Flutter, React Native) providing native performance and smooth UI/UX.</p>
+          <ul style="margin-top:16px; font-size:0.9rem; color:var(--text-dark); display:grid; gap:8px;">
+            <li>✓ Native Kotlin/Java</li>
+            <li>✓ Offline Data Sync</li>
+            <li>✓ Google Play Publishing</li>
+          </ul>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+          </div>
+          <h3>Cloud Architecture & DevOps</h3>
+          <p>Infrastructure as Code (Terraform, CloudFormation), AWS / Azure / GCP deployment, container orchestration (Docker, Kubernetes), and CI/CD pipelines.</p>
+          <ul style="margin-top:16px; font-size:0.9rem; color:var(--text-dark); display:grid; gap:8px;">
+            <li>✓ Multi-Cloud Setup</li>
+            <li>✓ Automated CI/CD</li>
+            <li>✓ Auto-scaling & Monitoring</li>
+          </ul>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>API Development & Integration</h3>
+          <p>RESTful APIs and GraphQL endpoint engineering with OAuth2/JWT security, rate limiting, and seamless integration with third-party software providers.</p>
+          <ul style="margin-top:16px; font-size:0.9rem; color:var(--text-dark); display:grid; gap:8px;">
+            <li>✓ REST & GraphQL</li>
+            <li>✓ Payment & SMS Gateways</li>
+            <li>✓ OpenAPI / Swagger Specs</li>
+          </ul>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <h3>AI Solutions & Automation</h3>
+          <p>Integration of Large Language Models (LLMs), automated data extraction, intelligent chatbots, and business workflow process automation.</p>
+          <ul style="margin-top:16px; font-size:0.9rem; color:var(--text-dark); display:grid; gap:8px;">
+            <li>✓ LLM & OpenAI Integration</li>
+            <li>✓ Workflow Automation</li>
+            <li>✓ Data Extraction Pipelines</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section class="section" style="background-color: white;">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="tag">Engineering Delivery</span>
+        <h2>Our Development Process</h2>
+        <p>A systematic 4-phase methodology ensuring quality and on-time delivery.</p>
+      </div>
+
+      <div class="grid grid-4">
+        <div class="card reveal">
+          <div style="font-size:2.5rem; font-weight:800; color:var(--secondary); font-family:var(--font-heading); margin-bottom:12px;">01</div>
+          <h3>Discovery & Architecture</h3>
+          <p>Requirements gathering, tech stack selection, database modeling, and system wireframing.</p>
+        </div>
+
+        <div class="card reveal">
+          <div style="font-size:2.5rem; font-weight:800; color:var(--accent); font-family:var(--font-heading); margin-bottom:12px;">02</div>
+          <h3>Agile Development</h3>
+          <p>Sprint-based coding iterations, continuous code reviews, and transparent milestone demos.</p>
+        </div>
+
+        <div class="card reveal">
+          <div style="font-size:2.5rem; font-weight:800; color:var(--primary); font-family:var(--font-heading); margin-bottom:12px;">03</div>
+          <h3>Testing & Security</h3>
+          <p>Rigorous QA testing, vulnerability scanning, load testing, and cross-browser validation.</p>
+        </div>
+
+        <div class="card reveal">
+          <div style="font-size:2.5rem; font-weight:800; color:var(--success); font-family:var(--font-heading); margin-bottom:12px;">04</div>
+          <h3>Deployment & SLA</h3>
+          <p>Zero-downtime production launch, monitoring setup, and post-launch maintenance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="section" style="background:var(--gradient-primary); color:white; text-align:center;">
+    <div class="container reveal">
+      <h2 style="color:white; margin-bottom:16px;">Have a Service Requirement?</h2>
+      <p style="color:rgba(255,255,255,0.9); max-width:600px; margin:0 auto 28px auto;">Send your project scope to our engineering team for a technical review.</p>
+      <a href="contact.html" class="btn btn-outline" style="color:white; border-color:white; background:rgba(255,255,255,0.1);">
+        Contact REXIS IT &rarr;
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img src="logo.png" alt="REXIS IT Logo" class="logo-img-footer">
+          </a>
+          <p>Professional enterprise technology partner specializing in web development, mobile applications, cloud infrastructure, and custom software engineering solutions.</p>
+          <div class="social-links">
+            <a href="https://www.instagram.com/rexis.it" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/rexis-it-3505b5425" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://x.com/REXIS_IT" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="X Twitter">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+            </a>
+            <a href="mailto:rexisit.tech@gmail.com" class="social-btn" aria-label="Email">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="technologies.html">Technologies</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Core Expertise</h4>
+          <ul>
+            <li><a href="services.html">Website Development</a></li>
+            <li><a href="services.html">Custom Software</a></li>
+            <li><a href="services.html">Android & Mobile Apps</a></li>
+            <li><a href="services.html">Cloud Architecture</a></li>
+            <li><a href="services.html">AI & Machine Learning</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Legal & Trust</h4>
+          <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+          </ul>
+          <div style="margin-top:20px; font-size:0.875rem;">
+            <div style="color:var(--text-dark); font-weight:600; margin-bottom:4px;">Direct Contact</div>
+            <a href="mailto:rexisit.tech@gmail.com" style="color:var(--secondary); font-weight:600;">rexisit.tech@gmail.com</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 REXIS IT. All Rights Reserved. Innovate • Develop • Deliver.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to Top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
